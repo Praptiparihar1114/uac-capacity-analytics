@@ -1,18 +1,3 @@
-/* ==========================================================================
-   assets/style.css
-   Custom theme for the UAC System Capacity & Care Load Analytics dashboard.
-
-   Design direction: a blend of federal/policy seriousness and modern data-
-   product polish. Deep navy structure, paper-gray canvas, brass accent used
-   sparingly (like an official seal), semantic regime colors (stress/relief/
-   normal), IBM Plex Serif for headings, IBM Plex Sans for body, IBM Plex
-   Mono for every number so the dashboard reads like a data ledger.
-
-   Loaded into Streamlit via:
-       with open("assets/style.css") as f:
-           st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
-   ========================================================================== */
-
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@400;600;700&family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap');
 
 :root {

@@ -1,16 +1,3 @@
-# app.py
-# UAC System Capacity & Care Load Analytics - Streamlit Dashboard
-#
-# All 5 tabs complete:
-#   - Tab 1: System Load Overview
-#   - Tab 2: CBP vs HHS Load Comparison
-#   - Tab 3: Net Intake & Backlog Trends
-#   - Tab 4: Forecast
-#   - Tab 5: Data Quality & Documentation
-#
-# Run with:
-#     streamlit run app.py
-
 from __future__ import annotations
 
 import json
